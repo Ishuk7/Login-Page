@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: 0.2s;
+}
+
+a:hover{
+    background-color: white;
+    color: black;
+}
+
+.bg{
+    background-image: url(Black\ BG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: 'Montserrat';
+    font-size: 2.5rem;
+}
+
+.content{
+    display: flex;
+    gap: 70px;
+}
